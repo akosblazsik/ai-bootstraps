@@ -1,8 +1,8 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/light-logo.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/dark-logo.svg">
-    <img src="./assets/light-logo.svg" alt="Project logo" width="200">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/logo-light.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/logo-dark.svg">
+    <img src="./assets/logo-light.svg" alt="Project logo" width="200">
   </picture>
 </p>
 

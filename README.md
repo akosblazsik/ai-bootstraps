@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="./assets/logo.svg" alt="ai bootstraps logo" width="150" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/light-logo.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/dark-logo.svg">
+    <img src="./assets/light-logo.svg" alt="Project logo" width="200">
+  </picture>
 </p>
 
 <h1 align="center">ai bootstraps</h1>

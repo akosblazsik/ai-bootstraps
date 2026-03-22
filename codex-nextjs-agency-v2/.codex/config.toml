@@ -1,0 +1,23 @@
+model = "gpt-5"
+approval_policy = "never"
+sandbox_mode = "danger-full-access"
+include_plan_tool = true
+
+root_markers = [
+  "package.json",
+  "tsconfig.json",
+  "next.config.js",
+  "next.config.mjs",
+  "next.config.ts",
+  "app",
+  "src"
+]
+
+agent_dir = ".codex/agents"
+
+docs_lookup_required_for_nontrivial = true
+verification_required_for_mutations = true
+review_required_for_ui_changes = true
+default_workflow = "classify -> research -> design -> implement -> verify -> review -> document"
+functional_minimization_rule = true
+skills_dir = ".codex/skills"
